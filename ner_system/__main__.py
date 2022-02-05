@@ -1,6 +1,6 @@
 from argparse import ArgumentParser
-from ner_system.ner_system import show_ners
 
+from system import show_ners
 
 if __name__ == "__main__":
     parser = ArgumentParser()

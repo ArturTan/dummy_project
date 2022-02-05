@@ -1,7 +1,9 @@
-import spacy
+from dataclasses import asdict, dataclass
 from typing import Any, Dict, List
-from dataclasses import dataclass, asdict
-from ner_system.language_map import LANGUAGE_MAP
+
+import spacy
+
+from language_map import LANGUAGE_MAP
 
 
 @dataclass

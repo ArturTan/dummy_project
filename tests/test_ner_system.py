@@ -1,4 +1,10 @@
-from ner_system.ner_system import show_ners
+import sys
+
+sys.path.append("ner_system")
+
+
+from system import show_ners
+
 
 
 def test_show_ners():
